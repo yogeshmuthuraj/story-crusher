@@ -1,7 +1,7 @@
 {
-  "name": "yogesh-electron-react-boilerplate",
-  "productName": "YogeshElectronReact",
-  "description": "Electron application boilerplate based on React, React Router, Webpack, React Fast Refresh for rapid application development",
+  "name": "Story-Crusher",
+  "productName": "StoryCrusher",
+  "description": "Handy dashboard for Jira issues and Github pull request",
   "scripts": {
     "build": "concurrently \"yarn build:main\" \"yarn build:renderer\"",
     "build:main": "cross-env NODE_ENV=production webpack --config ./.erb/configs/webpack.config.main.prod.babel.js",
@@ -30,7 +30,7 @@
     ]
   },
   "build": {
-    "productName": "YogeshElectronReact",
+    "productName": "Story Crusher",
     "appId": "",
     "files": [
       "dist/",
@@ -86,8 +86,8 @@
     ],
     "publish": {
       "provider": "github",
-      "owner": "yogesh-electron-react-boilerplate",
-      "repo": "yogesh-electron-react-boilerplate"
+      "owner": "Story Crusher",
+      "repo": "Story Crusher"
     }
   },
   "repository": {
@@ -216,7 +216,6 @@
     "mini-css-extract-plugin": "^1.3.1",
     "node-sass": "^5.0.0",
     "opencollective-postinstall": "^2.0.3",
-    "prettier": "^2.0.5",
     "react-refresh": "^0.9.0",
     "react-test-renderer": "^17.0.1",
     "rimraf": "^3.0.0",

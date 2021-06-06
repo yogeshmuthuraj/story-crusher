@@ -1,8 +1,8 @@
 {
-  "name": "yogesh-electron-react-boilerplate",
-  "productName": "yogesh-electron-react-boilerplate",
+  "name": "Story-Crusher",
+  "productName": "StoryCrusher",
   "version": "2.3.0",
-  "description": "Electron application boilerplate based on React, React Router, Webpack, React Hot Loader for rapid application development",
+  "description": "Handy dashboard for Jira issues and Github pull request",
   "main": "./main.prod.js",
   "author": {
     "name": "Yogesh Kumar Muthuraj",
